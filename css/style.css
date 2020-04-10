@@ -1,0 +1,23 @@
+body {
+    background-color: lightcyan;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
+
+p {
+    color: blue;
+}
+
+.bold {
+    font-style: bold;
+    font-size: large;
+}
+
+.black {
+    color: black;
+}
