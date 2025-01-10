@@ -1,271 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- WEB TITLE -->
-    <title>Curriculum Vitae || Archi</title>
-    <!-- WEB FAVICON -->
-    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon" />
-    <!-- GOOGLE FONTS -->
-    <!-- Roboto -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lưu Đình Hoàn - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            width: 21cm;
+            height: 29.7cm;
+            margin-left: 2cm;
+            margin-right: 2cm;
+            margin-top: 2cm;
+            margin-bottom: 2cm;
+        }
+        .container {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 1.6rem;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin-top: 20px;
+            color: #666;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .profile {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="section">
+            <h1>Lưu Đình Hoàn</h1>
+            <p class="contact-info">
+                Email: <a href="mailto:hoanbkhn@gmail.com">hoanbkhn@gmail.com</a><br>
+                Phone: 0356100460<br>
+                LinkedIn: <a href="https://www.linkedin.com/in/ho%C3%A0n-l%C6%B0u-%C4%91%C3%ình-48b662254/" target="_blank">hoan-lưu-đình</a><br>
+                Language: Tiếng Anh (Trung cấp) – Khả năng nghe và đọc hiểu tài liệu chuyên ngành tốt.
+            </p>
+            <p class="profile">
+                Là một lập trình viên backend với chuyên môn về công nghệ blockchain, hệ thống phi tập trung và ứng dụng AI. Tôi có kinh nghiệm xây dựng các nền tảng DeFi hiệu suất cao và các giải pháp AI, giúp cải thiện tự động hóa và trải nghiệm người dùng. Tôi thành thạo Node.js và TypeScript, đã tham gia phát triển các hệ thống backend cho các dự án có hàng triệu giao dịch mỗi tháng. Tôi luôn mong muốn học hỏi và phát triển trong môi trường đầy thử thách.
+            </p>
+        </header>
 
-    <!-- Poppins -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
+        <section class="section">
+            <h2>Kỹ Năng</h2>
+            <div class="skills">
+                <ul>
+                    <li>Ngôn ngữ lập trình: Node.js, TypeScript</li>
+                    <li>Frameworks/Thư viện: Express.js</li>
+                    <li>Cơ sở dữ liệu: MongoDB</li>
+                    <li>APIs: RESTful, GraphQL</li>
+                    <li>Blockchain: Ethereum, Arbitrum, Tron, TON</li>
+                    <li>Smart Contracts: Solidity, Ethereum Virtual Machine (EVM)</li>
+                    <li>AI/ML: OpenAI GPT-4</li>
+                </ul>
+                <ul>
+                    <li>DevOps: Docker</li>
+                    <li>Công cụ quản lý dự án: Git, Jira</li>
+                    <li>Kỹ năng khác: Kiến trúc theo sự kiện, Microservices</li>
+                </ul>
+            </div>
+        </section>
 
-    <!-- FONT AWSOME -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <!-- STYLE -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- CV -->
-    <div class="CV">
-      <!-- leftside -->
-      <div class="leftside">
-        <!-- avatar -->
-        <section class="avatar">
-          <img src="images/Crop-1-1.jpg" />
+        <section class="section">
+            <h2>Kinh Nghiệm Làm Việc</h2>
+        
+            <h3>Backend Developer | Tronsave (08/2023 - Nay)</h3>
+            <p>
+                Tronsave là nền tảng DeFi cho phép người dùng stake TRX và kiếm thu nhập thụ động thu hút 100 triệu TRX (24 triệu đô) tính đến 01/2025 Chịu trách nhiệm xây dựng, tối ưu và duy trì API RESTful và GraphQL hỗ trợ đảm bảo hàng cho triệu giao dịch mỗi tháng. 
+            </p>
+            <p>
+                - Phát triển mô hình AI trả lời tự động cho khách hàng.
+            </p>
+            <p>
+                - Tích hợp các giải pháp blockchain, xử lý giao dịch TRX và các token trên nền tảng Tron Blockchain.
+            </p>
+            <p>
+                - Đảm bảo bảo mật hệ thống và tối ưu hiệu suất để duy trì hoạt động ổn định trong môi trường có lượng người dùng lớn.
+            </p>
+            <p>
+                Trang web tham khảo: <a href="https://tronsave.io/" target="_blank">Tronsave</a>
+            </p>
+        
+            <h3>Backend Developer | Decentralized Perpetual Exchange (2022 - 2023)</h3>
+            <p>
+                Tham gia xây dựng backend cho nền tảng giao dịch phi tập trung (DeFi) trên Arbitrum Blockchain. Xử lý đến 100,000 giao dịch mỗi ngày, tối ưu hóa các hệ thống giao dịch và thanh toán tự động.
+            </p>
+            <p>
+                - Tích hợp và tương tác với smart contract trên Arbitrum để thực hiện các giao dịch nhanh chóng và chính xác.
+            </p>
+            <p>
+                - Phối hợp với nhóm frontend để cải thiện trải nghiệm người dùng và giảm độ trễ giao dịch.
+            </p>
+            <p>
+                Trang web tham khảo: <a href="https://gmx.io/" target="_blank">gmx.io</a>
+            </p>
+        
+            <h3>Backend Developer | Tobbot (03/2024 - Nay)</h3>
+            <p>
+                Phát triển và duy trì Tobbot, chatbot trên Telegram hỗ trợ giao dịch trên DEX. Xử lý hơn 1,000,000 giao dịch mỗi tuần, phục vụ hàng nghìn người dùng đồng thời.
+            </p>
+            <p>
+                - Phát triển tính năng Snip Order và Limit Order giúp người dùng giao dịch tự động và quản lý danh mục đầu tư hiệu quả.
+            </p>
+            <p>
+                - Kết nối với smart contract trên TON Blockchain để thực hiện giao dịch an toàn.
+            </p>
+            <p>
+                Telegram: <a href="https://t.me/tob_ton_trading_bot" target="_blank">@tob_ton_trading_bot</a>
+            </p>
         </section>
-        <!-- contant -->
-        <section class="contact paddingbottom">
-          <div class="title">Contact</div>
-          <ul>
-            <li>
-              <div class="li_wrap">
-                <div class="icon">
-                  <i class="fas fa-mobile-alt"></i>
-                </div>
-                <div class="text">0356100460</div>
-              </div>
-            </li>
-            <li>
-              <div class="li_wrap">
-                <div class="icon">
-                  <i class="fas fa-envelope"></i>
-                </div>
-                <div class="text">hoanbkhn@gmail.com</div>
-              </div>
-            </li>
-            <li>
-              <div class="li_wrap">
-                <div class="icon">
-                  <i class="fas fa-map-marker-alt"></i>
-                </div>
-                <div class="text">Tam Hiep - Thanh Tri - Ha Noi</div>
-              </div>
-            </li>
-          </ul>
-        </section>
-        <!-- skills -->
-        <section class="skills paddingbottom">
-          <div class="title">skills</div>
-          <ul>
-            <li>
-              <div class="li_wrap">
-                <div class="icon">
-                  <i class="fab fa-html5"></i>
-                </div>
-                <div class="text">HTML</div>
-              </div>
-            </li>
-            <li>
-              <div class="li_wrap">
-                <div class="icon">
-                  <i class="fab fa-css3-alt"></i>
-                </div>
-                <div class="text">CSS</div>
-              </div>
-            </li>
-            <li>
-              <div class="li_wrap">
-                <div class="icon">
-                  <i class="fab fa-js"></i>
-                </div>
-                <div class="text">JS</div>
-              </div>
-            </li>
-            <li>
-              <div class="li_wrap">
-                <div class="icon">
-                  <i class="fab fa-react"></i>
-                </div>
-                <div class="text">React</div>
-              </div>
-            </li>
-          </ul>
-        </section>
-        <!-- hobbies -->
-        <section class="hobbies paddingbottom">
-          <div class="title">hobbies</div>
-          <ul>
-            <li>
-              <div class="li_wrap">
-                <div class="icon">
-                  <i class="fas fa-book"></i>
-                </div>
-                <div class="text">Reading</div>
-              </div>
-            </li>
-            <li>
-              <div class="li_wrap">
-                <div class="icon">
-                  <i class="fas fa-music"></i>
-                </div>
-                <div class="text">Music</div>
-              </div>
-            </li>
-            <li>
-              <div class="li_wrap">
-                <div class="icon">
-                  <i class="fas fa-swimmer"></i>
-                </div>
-                <div class="text">Swimming</div>
-              </div>
-            </li>
-            <li>
-              <div class="li_wrap">
-                <div class="icon">
-                  <i class="fas fa-guitar"></i>
-                </div>
-                <div class="text">Guitar</div>
-              </div>
-            </li>
-          </ul>
-        </section>
-      </div>
-      <!-- end .leftside -->
-      <!-- rightside -->
-      <div class="rightside">
-        <!-- header -->
-        <div class="header">
-          <div class="name_role">
-            <div class="name">LUU DINH HOAN</div>
-            <div class="role">Fresher Web Developer</div>
-          </div>
-          <div class="about">
-            Man braid celiac synth freegan readymade, pitchfork fam salvia
-            waistcoat lomo bitters gentrify four loko. Pitchfork semiotics
-            post-ironic vegan. Tofu meditation microdosing hashtag semiotics
-            venmo. Flexitarian vape tilde taiyaki. Prism poutine farm-to-table,
-            messenger bag vegan taxidermy tattooed sartorial squid jean shorts
-            fixie selvage trust fund vape.
-          </div>
-          <div class="language_btn_wrap">
-            <div class="controller vie_mode"></div>
-            <span class="eng">EN</span>
-            <span class="vie">VN</span>
-          </div>
-        </div>
-        <div class="right_inner">
-          <!-- exp -->
-          <div class="exp">
-            <div class="title">Experience</div>
-          </div>
-          <!-- exp_wrap -->
-          <div class="exp_wrap">
-            <ul>
-              <li>
-                <div class="li_wrap">
-                  <div class="date">2018-Present</div>
-                  <div class="info">
-                    <p class="info_title">UI Team Lead</p>
-                    <p class="info_com">Facebook</p>
-                    <p class="info_content">
-                      Man braid celiac synth freegan readymade, pitchfork fam
-                      salvia waistcoat lomo bitters gentrify four loko.
-                      Pitchfork semiotics post-ironic vegan. Tofu meditation
-                      microdosing hashtag semiotics venmo. Flexitarian vape
-                      tilde taiyaki. Prism poutine farm-to-table, messenger bag
-                      vegan taxidermy tattooed sartorial squid jean shorts fixie
-                      selvage trust fund vape.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="li_wrap">
-                  <div class="date">2015-2018</div>
-                  <div class="info">
-                    <p class="info_title">UI Developer</p>
-                    <p class="info_com">Amazon</p>
-                    <p class="info_content">
-                      Man braid celiac synth freegan readymade, pitchfork fam
-                      salvia waistcoat lomo bitters gentrify four loko.
-                      Pitchfork semiotics post-ironic vegan. Tofu meditation
-                      microdosing hashtag semiotics venmo. Flexitarian vape
-                      tilde taiyaki. Prism poutine farm-to-table, messenger bag
-                      vegan taxidermy tattooed sartorial squid jean shorts fixie
-                      selvage trust fund vape.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="li_wrap">
-                  <div class="date">2014-2015</div>
-                  <div class="info">
-                    <p class="info_title">Junior UI Developer</p>
-                    <p class="info_com">Coding Power</p>
-                    <p class="info_content">
-                      Man braid celiac synth freegan readymade, pitchfork fam
-                      salvia waistcoat lomo bitters gentrify four loko.
-                      Pitchfork semiotics post-ironic vegan. Tofu meditation
-                      microdosing hashtag semiotics venmo. Flexitarian vape
-                      tilde taiyaki. Prism poutine farm-to-table, messenger bag
-                      vegan taxidermy tattooed sartorial squid jean shorts fixie
-                      selvage trust fund vape.
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <!-- education -->
-          <div class="education">
-            <div class="title">Education</div>
-          </div>
-          <!-- education_wrap -->
-          <div class="education_wrap">
-            <ul>
-              <li>
-                <div class="li_wrap">
-                  <div class="date">2010-2014</div>
-                  <div class="info">
-                    <p class="info_title">Computer Sience</p>
-                    <p class="info_uni">Israel University</p>
-                    <p class="info_content">
-                      Man braid celiac synth freegan readymade, pitchfork fam
-                      salvia waistcoat lomo bitters gentrify four loko.
-                      Pitchfork semiotics post-ironic vegan. Tofu meditation
-                      microdosing hashtag semiotics venmo. Flexitarian vape
-                      tilde taiyaki. Prism poutine farm-to-table, messenger bag
-                      vegan taxidermy tattooed sartorial squid jean shorts fixie
-                      selvage trust fund vape.
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- end .rightside -->
     </div>
-    <a href="./file/LuuDinhHoan-CV.pdf" download class="download_btn">
-      <i class="fa fa-download"></i>
-      <p>Download CV</p>
-    </a>
-    <!-- end .CV -->
-    <script src="index.js"></script>
-  </body>
+</body>
 </html>
